@@ -1,0 +1,1033 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000FB251DFE92FB0013FAB7 /* TSAddTowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000FB241DFE92FB0013FAB7 /* TSAddTowVC.swift */; };
+		001444E51E0380F10000243E /* TSDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001444E41E0380F10000243E /* TSDataHandler.swift */; };
+		001D44BB1E13B1510010FF1E /* TSRemoveableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001D44BA1E13B1510010FF1E /* TSRemoveableImageView.xib */; };
+		001D44BD1E13BD6E0010FF1E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001D44BC1E13BD6E0010FF1E /* Photos.framework */; };
+		001D44BF1E13BD770010FF1E /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001D44BE1E13BD770010FF1E /* PhotosUI.framework */; };
+		004D24CB1DB6873700C9EF4C /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F342121DB63E8D0068F086 /* Lato-MediumItalic.ttf */; };
+		004D24CC1DB6873900C9EF4C /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F342111DB63E8D0068F086 /* Lato-Medium.ttf */; };
+		004D24CD1DB6873C00C9EF4C /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F342131DB640230068F086 /* Lato-Heavy.ttf */; };
+		004D24CE1DB6873E00C9EF4C /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F342141DB640230068F086 /* Lato-HeavyItalic.ttf */; };
+		004D24CF1DB6874100C9EF4C /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F342151DB640230068F086 /* Lato-Semibold.ttf */; };
+		004D24D01DB6874300C9EF4C /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F342161DB640230068F086 /* Lato-SemiboldItalic.ttf */; };
+		004D24D21DB69A0A00C9EF4C /* TSBaseTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004D24D11DB69A0A00C9EF4C /* TSBaseTVCell.swift */; };
+		004D24D41DB6C4FF00C9EF4C /* TSAddNewVehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004D24D31DB6C4FF00C9EF4C /* TSAddNewVehicleVC.swift */; };
+		004D24D61DB6D74C00C9EF4C /* TSSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004D24D51DB6D74C00C9EF4C /* TSSettingsVC.swift */; };
+		0072ADE31DFC7DAD0091C72B /* TSUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072ADE21DFC7DAD0091C72B /* TSUser.swift */; };
+		0072ADE51DFC88940091C72B /* TSModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072ADE41DFC88940091C72B /* TSModelBase.swift */; };
+		0072ADE71DFC8B9E0091C72B /* TSCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072ADE61DFC8B9E0091C72B /* TSCacheHandler.swift */; };
+		0072ADE91DFCAE6B0091C72B /* TSTow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072ADE81DFCAE6B0091C72B /* TSTow.swift */; };
+		0072ADEB1DFCB2470091C72B /* TSContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072ADEA1DFCB2470091C72B /* TSContract.swift */; };
+		0094AC9A1E00547700E078A5 /* AutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094AC991E00547700E078A5 /* AutoCompleteTextField.swift */; };
+		0094AC9C1E00ED8A00E078A5 /* TSVehicleInfoTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094AC9B1E00ED8A00E078A5 /* TSVehicleInfoTVCell.swift */; };
+		0094AC9E1E00EDEB00E078A5 /* TSTapToAddTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094AC9D1E00EDEB00E078A5 /* TSTapToAddTVCell.swift */; };
+		0094ACA01E00EE1400E078A5 /* TSAddVehicleDateTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094AC9F1E00EE1400E078A5 /* TSAddVehicleDateTVCell.swift */; };
+		0094ACA21E00F50C00E078A5 /* TSAddVehicleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094ACA11E00F50C00E078A5 /* TSAddVehicleDetailVC.swift */; };
+		0094ACA41E02450500E078A5 /* TSPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094ACA31E02450400E078A5 /* TSPrice.swift */; };
+		0094ACA61E0245B100E078A5 /* TSStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094ACA51E0245B100E078A5 /* TSStorage.swift */; };
+		0094ACA81E02477800E078A5 /* TSTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094ACA71E02477800E078A5 /* TSTruck.swift */; };
+		0094ACAA1E02497700E078A5 /* TSVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094ACA91E02497700E078A5 /* TSVehicle.swift */; };
+		00EE45EF1E1157740091B289 /* TSRemoveableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE45EE1E1157740091B289 /* TSRemoveableImageView.swift */; };
+		00F341951DB5C0060068F086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341941DB5C0060068F086 /* AppDelegate.swift */; };
+		00F3419A1DB5C0060068F086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F341981DB5C0060068F086 /* Main.storyboard */; };
+		00F3419D1DB5C0060068F086 /* My_Toe_Slip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00F3419B1DB5C0060068F086 /* My_Toe_Slip.xcdatamodeld */; };
+		00F3419F1DB5C0060068F086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F3419E1DB5C0060068F086 /* Assets.xcassets */; };
+		00F341A21DB5C0060068F086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F341A01DB5C0060068F086 /* LaunchScreen.storyboard */; };
+		00F341AD1DB5C0060068F086 /* My_Toe_SlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341AC1DB5C0060068F086 /* My_Toe_SlipTests.swift */; };
+		00F341B81DB5C0060068F086 /* My_Toe_SlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341B71DB5C0060068F086 /* My_Toe_SlipUITests.swift */; };
+		00F341E31DB5C46A0068F086 /* TSAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341C61DB5C46A0068F086 /* TSAPIHandler.swift */; };
+		00F341E51DB5C46A0068F086 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341CD1DB5C46A0068F086 /* Lato-Black.ttf */; };
+		00F341E61DB5C46A0068F086 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341CE1DB5C46A0068F086 /* Lato-BlackItalic.ttf */; };
+		00F341E71DB5C46A0068F086 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341CF1DB5C46A0068F086 /* Lato-Bold.ttf */; };
+		00F341E81DB5C46A0068F086 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341D01DB5C46A0068F086 /* Lato-BoldItalic.ttf */; };
+		00F341E91DB5C46A0068F086 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341D11DB5C46A0068F086 /* Lato-Hairline.ttf */; };
+		00F341EA1DB5C46A0068F086 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341D21DB5C46A0068F086 /* Lato-HairlineItalic.ttf */; };
+		00F341EB1DB5C46A0068F086 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341D31DB5C46A0068F086 /* Lato-Italic.ttf */; };
+		00F341EC1DB5C46A0068F086 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341D41DB5C46A0068F086 /* Lato-Light.ttf */; };
+		00F341ED1DB5C46A0068F086 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341D51DB5C46A0068F086 /* Lato-LightItalic.ttf */; };
+		00F341EE1DB5C46A0068F086 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341D61DB5C46A0068F086 /* Lato-Regular.ttf */; };
+		00F341EF1DB5C46A0068F086 /* ProximaNovaSoft-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341D81DB5C46A0068F086 /* ProximaNovaSoft-Bold.ttf */; };
+		00F341F01DB5C46A0068F086 /* ProximaNovaSoft-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341D91DB5C46A0068F086 /* ProximaNovaSoft-Medium.ttf */; };
+		00F341F11DB5C46A0068F086 /* ProximaNovaSoft-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341DA1DB5C46A0068F086 /* ProximaNovaSoft-Regular.ttf */; };
+		00F341F21DB5C46A0068F086 /* ProximaNovaSoft-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F341DB1DB5C46A0068F086 /* ProximaNovaSoft-Semibold.ttf */; };
+		00F341F31DB5C46A0068F086 /* TSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341DD1DB5C46A0068F086 /* TSConstants.swift */; };
+		00F341F41DB5C46A0068F086 /* TSUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341DE1DB5C46A0068F086 /* TSUtils.swift */; };
+		00F341F51DB5C46A0068F086 /* TSHeaderNonSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341E11DB5C46A0068F086 /* TSHeaderNonSearchVC.swift */; };
+		00F341F61DB5C46A0068F086 /* TSHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341E21DB5C46A0068F086 /* TSHeaderVC.swift */; };
+		00F341FA1DB60AFE0068F086 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F341F91DB60AFE0068F086 /* SWRevealViewController.m */; };
+		00F342031DB61F3C0068F086 /* TSBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341FC1DB61F3C0068F086 /* TSBaseVC.swift */; };
+		00F342041DB61F3C0068F086 /* TSLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341FD1DB61F3C0068F086 /* TSLoginVC.swift */; };
+		00F342051DB61F3C0068F086 /* TSMainNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F341FF1DB61F3C0068F086 /* TSMainNavVC.swift */; };
+		00F3420A1DB620E10068F086 /* loginBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F342091DB620E10068F086 /* loginBG.jpg */; };
+		00F3420C1DB62B260068F086 /* TSSideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F3420B1DB62B260068F086 /* TSSideBarVC.swift */; };
+		00F3420E1DB63BBA0068F086 /* TSHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F3420D1DB63BBA0068F086 /* TSHistoryVC.swift */; };
+		00F342101DB63BCE0068F086 /* TSVehicleListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F3420F1DB63BCD0068F086 /* TSVehicleListVC.swift */; };
+		00F342181DB64E370068F086 /* TSHistoryTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F342171DB64E370068F086 /* TSHistoryTVCell.swift */; };
+		00F3421A1DB64E4C0068F086 /* TSApartmentTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F342191DB64E4C0068F086 /* TSApartmentTVCell.swift */; };
+		00F3421C1DB64E5C0068F086 /* TSVehicleListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F3421B1DB64E5C0068F086 /* TSVehicleListTVCell.swift */; };
+		00F3421E1DB64F490068F086 /* TSSectionTypeTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F3421D1DB64F490068F086 /* TSSectionTypeTVCell.swift */; };
+		7928A32BA512312BDED15460 /* Pods_TowSlip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4874BF4ABC8D1F1A4DE2612 /* Pods_TowSlip.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00F341A91DB5C0060068F086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00F341891DB5C0060068F086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F341901DB5C0060068F086;
+			remoteInfo = "My Toe Slip";
+		};
+		00F341B41DB5C0060068F086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00F341891DB5C0060068F086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F341901DB5C0060068F086;
+			remoteInfo = "My Toe Slip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0000FB241DFE92FB0013FAB7 /* TSAddTowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAddTowVC.swift; sourceTree = "<group>"; };
+		001444E41E0380F10000243E /* TSDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSDataHandler.swift; sourceTree = "<group>"; };
+		001D44BA1E13B1510010FF1E /* TSRemoveableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSRemoveableImageView.xib; sourceTree = "<group>"; };
+		001D44BC1E13BD6E0010FF1E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		001D44BE1E13BD770010FF1E /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		004D24D11DB69A0A00C9EF4C /* TSBaseTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSBaseTVCell.swift; sourceTree = "<group>"; };
+		004D24D31DB6C4FF00C9EF4C /* TSAddNewVehicleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAddNewVehicleVC.swift; sourceTree = "<group>"; };
+		004D24D51DB6D74C00C9EF4C /* TSSettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSSettingsVC.swift; sourceTree = "<group>"; };
+		0072ADE21DFC7DAD0091C72B /* TSUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUser.swift; sourceTree = "<group>"; };
+		0072ADE41DFC88940091C72B /* TSModelBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSModelBase.swift; sourceTree = "<group>"; };
+		0072ADE61DFC8B9E0091C72B /* TSCacheHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSCacheHandler.swift; sourceTree = "<group>"; };
+		0072ADE81DFCAE6B0091C72B /* TSTow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTow.swift; sourceTree = "<group>"; };
+		0072ADEA1DFCB2470091C72B /* TSContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSContract.swift; sourceTree = "<group>"; };
+		0094AC991E00547700E078A5 /* AutoCompleteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextField.swift; sourceTree = "<group>"; };
+		0094AC9B1E00ED8A00E078A5 /* TSVehicleInfoTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSVehicleInfoTVCell.swift; sourceTree = "<group>"; };
+		0094AC9D1E00EDEB00E078A5 /* TSTapToAddTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTapToAddTVCell.swift; sourceTree = "<group>"; };
+		0094AC9F1E00EE1400E078A5 /* TSAddVehicleDateTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAddVehicleDateTVCell.swift; sourceTree = "<group>"; };
+		0094ACA11E00F50C00E078A5 /* TSAddVehicleDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAddVehicleDetailVC.swift; sourceTree = "<group>"; };
+		0094ACA31E02450400E078A5 /* TSPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSPrice.swift; sourceTree = "<group>"; };
+		0094ACA51E0245B100E078A5 /* TSStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSStorage.swift; sourceTree = "<group>"; };
+		0094ACA71E02477800E078A5 /* TSTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTruck.swift; sourceTree = "<group>"; };
+		0094ACA91E02497700E078A5 /* TSVehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSVehicle.swift; sourceTree = "<group>"; };
+		00EE45EE1E1157740091B289 /* TSRemoveableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSRemoveableImageView.swift; sourceTree = "<group>"; };
+		00F341911DB5C0060068F086 /* TowSlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowSlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F341941DB5C0060068F086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00F341991DB5C0060068F086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00F3419C1DB5C0060068F086 /* My_Toe_Slip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Toe_Slip.xcdatamodel; sourceTree = "<group>"; };
+		00F3419E1DB5C0060068F086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00F341A11DB5C0060068F086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00F341A31DB5C0060068F086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F341A81DB5C0060068F086 /* TowSlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowSlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F341AC1DB5C0060068F086 /* My_Toe_SlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Toe_SlipTests.swift; sourceTree = "<group>"; };
+		00F341AE1DB5C0060068F086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F341B31DB5C0060068F086 /* TowSlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowSlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F341B71DB5C0060068F086 /* My_Toe_SlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Toe_SlipUITests.swift; sourceTree = "<group>"; };
+		00F341B91DB5C0060068F086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F341C61DB5C46A0068F086 /* TSAPIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAPIHandler.swift; sourceTree = "<group>"; };
+		00F341CD1DB5C46A0068F086 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		00F341CE1DB5C46A0068F086 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		00F341CF1DB5C46A0068F086 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		00F341D01DB5C46A0068F086 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		00F341D11DB5C46A0068F086 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		00F341D21DB5C46A0068F086 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		00F341D31DB5C46A0068F086 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		00F341D41DB5C46A0068F086 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		00F341D51DB5C46A0068F086 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		00F341D61DB5C46A0068F086 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		00F341D81DB5C46A0068F086 /* ProximaNovaSoft-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaSoft-Bold.ttf"; sourceTree = "<group>"; };
+		00F341D91DB5C46A0068F086 /* ProximaNovaSoft-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaSoft-Medium.ttf"; sourceTree = "<group>"; };
+		00F341DA1DB5C46A0068F086 /* ProximaNovaSoft-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaSoft-Regular.ttf"; sourceTree = "<group>"; };
+		00F341DB1DB5C46A0068F086 /* ProximaNovaSoft-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaSoft-Semibold.ttf"; sourceTree = "<group>"; };
+		00F341DD1DB5C46A0068F086 /* TSConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSConstants.swift; sourceTree = "<group>"; };
+		00F341DE1DB5C46A0068F086 /* TSUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUtils.swift; sourceTree = "<group>"; };
+		00F341E11DB5C46A0068F086 /* TSHeaderNonSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSHeaderNonSearchVC.swift; sourceTree = "<group>"; };
+		00F341E21DB5C46A0068F086 /* TSHeaderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSHeaderVC.swift; sourceTree = "<group>"; };
+		00F341F81DB60AFE0068F086 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		00F341F91DB60AFE0068F086 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		00F341FB1DB60C070068F086 /* Objecive-CBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objecive-CBridgingHeader.h"; sourceTree = "<group>"; };
+		00F341FC1DB61F3C0068F086 /* TSBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSBaseVC.swift; sourceTree = "<group>"; };
+		00F341FD1DB61F3C0068F086 /* TSLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSLoginVC.swift; sourceTree = "<group>"; };
+		00F341FF1DB61F3C0068F086 /* TSMainNavVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMainNavVC.swift; sourceTree = "<group>"; };
+		00F342091DB620E10068F086 /* loginBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBG.jpg; sourceTree = "<group>"; };
+		00F3420B1DB62B260068F086 /* TSSideBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSSideBarVC.swift; sourceTree = "<group>"; };
+		00F3420D1DB63BBA0068F086 /* TSHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSHistoryVC.swift; sourceTree = "<group>"; };
+		00F3420F1DB63BCD0068F086 /* TSVehicleListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSVehicleListVC.swift; sourceTree = "<group>"; };
+		00F342111DB63E8D0068F086 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		00F342121DB63E8D0068F086 /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		00F342131DB640230068F086 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		00F342141DB640230068F086 /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		00F342151DB640230068F086 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		00F342161DB640230068F086 /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		00F342171DB64E370068F086 /* TSHistoryTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSHistoryTVCell.swift; sourceTree = "<group>"; };
+		00F342191DB64E4C0068F086 /* TSApartmentTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSApartmentTVCell.swift; sourceTree = "<group>"; };
+		00F3421B1DB64E5C0068F086 /* TSVehicleListTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSVehicleListTVCell.swift; sourceTree = "<group>"; };
+		00F3421D1DB64F490068F086 /* TSSectionTypeTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSSectionTypeTVCell.swift; sourceTree = "<group>"; };
+		B15B17A5637F4A849964642B /* Pods-TowSlip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowSlip.release.xcconfig"; path = "Pods/Target Support Files/Pods-TowSlip/Pods-TowSlip.release.xcconfig"; sourceTree = "<group>"; };
+		E4874BF4ABC8D1F1A4DE2612 /* Pods_TowSlip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TowSlip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6116DD2A23DBC361D5E8DEC /* Pods-TowSlip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowSlip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TowSlip/Pods-TowSlip.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F3418E1DB5C0060068F086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001D44BF1E13BD770010FF1E /* PhotosUI.framework in Frameworks */,
+				001D44BD1E13BD6E0010FF1E /* Photos.framework in Frameworks */,
+				7928A32BA512312BDED15460 /* Pods_TowSlip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F341A51DB5C0060068F086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F341B01DB5C0060068F086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001444E31E0380F10000243E /* DataHandler */ = {
+			isa = PBXGroup;
+			children = (
+				001444E41E0380F10000243E /* TSDataHandler.swift */,
+			);
+			path = DataHandler;
+			sourceTree = "<group>";
+		};
+		0094AC981E00547700E078A5 /* AutoCompleteTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0094AC991E00547700E078A5 /* AutoCompleteTextField.swift */,
+			);
+			path = AutoCompleteTextField;
+			sourceTree = "<group>";
+		};
+		00EE45ED1E11571D0091B289 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00EE45EE1E1157740091B289 /* TSRemoveableImageView.swift */,
+				001D44BA1E13B1510010FF1E /* TSRemoveableImageView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00F341881DB5C0060068F086 = {
+			isa = PBXGroup;
+			children = (
+				00F341931DB5C0060068F086 /* My Toe Slip */,
+				00F341AB1DB5C0060068F086 /* My Toe SlipTests */,
+				00F341B61DB5C0060068F086 /* My Toe SlipUITests */,
+				00F341921DB5C0060068F086 /* Products */,
+				A4423F5BB88AB822C181FFA4 /* Pods */,
+				3C8355ED500F544E5EC4F382 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00F341921DB5C0060068F086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F341911DB5C0060068F086 /* TowSlip.app */,
+				00F341A81DB5C0060068F086 /* TowSlipTests.xctest */,
+				00F341B31DB5C0060068F086 /* TowSlipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F341931DB5C0060068F086 /* My Toe Slip */ = {
+			isa = PBXGroup;
+			children = (
+				00F341C91DB5C46A0068F086 /* ExtLibs */,
+				00F342081DB620E10068F086 /* Images */,
+				00F341C51DB5C46A0068F086 /* ApiHandler */,
+				00F341C71DB5C46A0068F086 /* CacheHandler */,
+				001444E31E0380F10000243E /* DataHandler */,
+				00F341CA1DB5C46A0068F086 /* Models */,
+				00F341CB1DB5C46A0068F086 /* TSFonts */,
+				00EE45ED1E11571D0091B289 /* Views */,
+				00F341DC1DB5C46A0068F086 /* Utils */,
+				00F341DF1DB5C46A0068F086 /* VCs */,
+				00F341E01DB5C46A0068F086 /* WidgetVCs */,
+				00F341941DB5C0060068F086 /* AppDelegate.swift */,
+				00F341FB1DB60C070068F086 /* Objecive-CBridgingHeader.h */,
+				00F341981DB5C0060068F086 /* Main.storyboard */,
+				00F3419E1DB5C0060068F086 /* Assets.xcassets */,
+				00F341A01DB5C0060068F086 /* LaunchScreen.storyboard */,
+				00F341A31DB5C0060068F086 /* Info.plist */,
+				00F3419B1DB5C0060068F086 /* My_Toe_Slip.xcdatamodeld */,
+			);
+			path = "My Toe Slip";
+			sourceTree = "<group>";
+		};
+		00F341AB1DB5C0060068F086 /* My Toe SlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				00F341AC1DB5C0060068F086 /* My_Toe_SlipTests.swift */,
+				00F341AE1DB5C0060068F086 /* Info.plist */,
+			);
+			path = "My Toe SlipTests";
+			sourceTree = "<group>";
+		};
+		00F341B61DB5C0060068F086 /* My Toe SlipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00F341B71DB5C0060068F086 /* My_Toe_SlipUITests.swift */,
+				00F341B91DB5C0060068F086 /* Info.plist */,
+			);
+			path = "My Toe SlipUITests";
+			sourceTree = "<group>";
+		};
+		00F341C51DB5C46A0068F086 /* ApiHandler */ = {
+			isa = PBXGroup;
+			children = (
+				00F341C61DB5C46A0068F086 /* TSAPIHandler.swift */,
+			);
+			path = ApiHandler;
+			sourceTree = "<group>";
+		};
+		00F341C71DB5C46A0068F086 /* CacheHandler */ = {
+			isa = PBXGroup;
+			children = (
+				0072ADE61DFC8B9E0091C72B /* TSCacheHandler.swift */,
+			);
+			path = CacheHandler;
+			sourceTree = "<group>";
+		};
+		00F341C91DB5C46A0068F086 /* ExtLibs */ = {
+			isa = PBXGroup;
+			children = (
+				0094AC981E00547700E078A5 /* AutoCompleteTextField */,
+				00F341F71DB60AFE0068F086 /* SWRevealViewController */,
+			);
+			path = ExtLibs;
+			sourceTree = "<group>";
+		};
+		00F341CA1DB5C46A0068F086 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0072ADE21DFC7DAD0091C72B /* TSUser.swift */,
+				0072ADE81DFCAE6B0091C72B /* TSTow.swift */,
+				0072ADEA1DFCB2470091C72B /* TSContract.swift */,
+				0094ACA91E02497700E078A5 /* TSVehicle.swift */,
+				0094ACA31E02450400E078A5 /* TSPrice.swift */,
+				0094ACA51E0245B100E078A5 /* TSStorage.swift */,
+				0094ACA71E02477800E078A5 /* TSTruck.swift */,
+				0072ADE41DFC88940091C72B /* TSModelBase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00F341CB1DB5C46A0068F086 /* TSFonts */ = {
+			isa = PBXGroup;
+			children = (
+				00F341CC1DB5C46A0068F086 /* Lato */,
+				00F341D71DB5C46A0068F086 /* Proxima Nova Soft */,
+			);
+			path = TSFonts;
+			sourceTree = "<group>";
+		};
+		00F341CC1DB5C46A0068F086 /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				00F341CD1DB5C46A0068F086 /* Lato-Black.ttf */,
+				00F341CE1DB5C46A0068F086 /* Lato-BlackItalic.ttf */,
+				00F341CF1DB5C46A0068F086 /* Lato-Bold.ttf */,
+				00F341D01DB5C46A0068F086 /* Lato-BoldItalic.ttf */,
+				00F341D11DB5C46A0068F086 /* Lato-Hairline.ttf */,
+				00F341D21DB5C46A0068F086 /* Lato-HairlineItalic.ttf */,
+				00F341D31DB5C46A0068F086 /* Lato-Italic.ttf */,
+				00F341D41DB5C46A0068F086 /* Lato-Light.ttf */,
+				00F342111DB63E8D0068F086 /* Lato-Medium.ttf */,
+				00F342121DB63E8D0068F086 /* Lato-MediumItalic.ttf */,
+				00F342131DB640230068F086 /* Lato-Heavy.ttf */,
+				00F342141DB640230068F086 /* Lato-HeavyItalic.ttf */,
+				00F342151DB640230068F086 /* Lato-Semibold.ttf */,
+				00F342161DB640230068F086 /* Lato-SemiboldItalic.ttf */,
+				00F341D51DB5C46A0068F086 /* Lato-LightItalic.ttf */,
+				00F341D61DB5C46A0068F086 /* Lato-Regular.ttf */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
+		00F341D71DB5C46A0068F086 /* Proxima Nova Soft */ = {
+			isa = PBXGroup;
+			children = (
+				00F341D81DB5C46A0068F086 /* ProximaNovaSoft-Bold.ttf */,
+				00F341D91DB5C46A0068F086 /* ProximaNovaSoft-Medium.ttf */,
+				00F341DA1DB5C46A0068F086 /* ProximaNovaSoft-Regular.ttf */,
+				00F341DB1DB5C46A0068F086 /* ProximaNovaSoft-Semibold.ttf */,
+			);
+			path = "Proxima Nova Soft";
+			sourceTree = "<group>";
+		};
+		00F341DC1DB5C46A0068F086 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				00F341DD1DB5C46A0068F086 /* TSConstants.swift */,
+				00F341DE1DB5C46A0068F086 /* TSUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		00F341DF1DB5C46A0068F086 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				00F341FC1DB61F3C0068F086 /* TSBaseVC.swift */,
+				004D24D51DB6D74C00C9EF4C /* TSSettingsVC.swift */,
+				004D24D31DB6C4FF00C9EF4C /* TSAddNewVehicleVC.swift */,
+				0000FB241DFE92FB0013FAB7 /* TSAddTowVC.swift */,
+				0094ACA11E00F50C00E078A5 /* TSAddVehicleDetailVC.swift */,
+				00F341FD1DB61F3C0068F086 /* TSLoginVC.swift */,
+				00F3420B1DB62B260068F086 /* TSSideBarVC.swift */,
+				00F3420D1DB63BBA0068F086 /* TSHistoryVC.swift */,
+				00F3420F1DB63BCD0068F086 /* TSVehicleListVC.swift */,
+				00F341FE1DB61F3C0068F086 /* MainNav */,
+				00F342011DB61F3C0068F086 /* TVCells */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		00F341E01DB5C46A0068F086 /* WidgetVCs */ = {
+			isa = PBXGroup;
+			children = (
+				00F341E11DB5C46A0068F086 /* TSHeaderNonSearchVC.swift */,
+				00F341E21DB5C46A0068F086 /* TSHeaderVC.swift */,
+			);
+			path = WidgetVCs;
+			sourceTree = "<group>";
+		};
+		00F341F71DB60AFE0068F086 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00F341F81DB60AFE0068F086 /* SWRevealViewController.h */,
+				00F341F91DB60AFE0068F086 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		00F341FE1DB61F3C0068F086 /* MainNav */ = {
+			isa = PBXGroup;
+			children = (
+				00F341FF1DB61F3C0068F086 /* TSMainNavVC.swift */,
+			);
+			path = MainNav;
+			sourceTree = "<group>";
+		};
+		00F342011DB61F3C0068F086 /* TVCells */ = {
+			isa = PBXGroup;
+			children = (
+				0094AC9B1E00ED8A00E078A5 /* TSVehicleInfoTVCell.swift */,
+				0094AC9D1E00EDEB00E078A5 /* TSTapToAddTVCell.swift */,
+				0094AC9F1E00EE1400E078A5 /* TSAddVehicleDateTVCell.swift */,
+				004D24D11DB69A0A00C9EF4C /* TSBaseTVCell.swift */,
+				00F342171DB64E370068F086 /* TSHistoryTVCell.swift */,
+				00F3421D1DB64F490068F086 /* TSSectionTypeTVCell.swift */,
+				00F342191DB64E4C0068F086 /* TSApartmentTVCell.swift */,
+				00F3421B1DB64E5C0068F086 /* TSVehicleListTVCell.swift */,
+			);
+			path = TVCells;
+			sourceTree = "<group>";
+		};
+		00F342081DB620E10068F086 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				00F342091DB620E10068F086 /* loginBG.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3C8355ED500F544E5EC4F382 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001D44BE1E13BD770010FF1E /* PhotosUI.framework */,
+				001D44BC1E13BD6E0010FF1E /* Photos.framework */,
+				E4874BF4ABC8D1F1A4DE2612 /* Pods_TowSlip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4423F5BB88AB822C181FFA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6116DD2A23DBC361D5E8DEC /* Pods-TowSlip.debug.xcconfig */,
+				B15B17A5637F4A849964642B /* Pods-TowSlip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00F341901DB5C0060068F086 /* TowSlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F341BC1DB5C0060068F086 /* Build configuration list for PBXNativeTarget "TowSlip" */;
+			buildPhases = (
+				8B24CBEA5AEF188F1EBAEB1D /* [CP] Check Pods Manifest.lock */,
+				00F3418D1DB5C0060068F086 /* Sources */,
+				00F3418E1DB5C0060068F086 /* Frameworks */,
+				00F3418F1DB5C0060068F086 /* Resources */,
+				85BF46DD367D53B4E551C10F /* [CP] Embed Pods Frameworks */,
+				6C5A32512F9005AD3FA0CCFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowSlip;
+			productName = "My Toe Slip";
+			productReference = 00F341911DB5C0060068F086 /* TowSlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00F341A71DB5C0060068F086 /* TowSlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F341BF1DB5C0060068F086 /* Build configuration list for PBXNativeTarget "TowSlipTests" */;
+			buildPhases = (
+				00F341A41DB5C0060068F086 /* Sources */,
+				00F341A51DB5C0060068F086 /* Frameworks */,
+				00F341A61DB5C0060068F086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00F341AA1DB5C0060068F086 /* PBXTargetDependency */,
+			);
+			name = TowSlipTests;
+			productName = "My Toe SlipTests";
+			productReference = 00F341A81DB5C0060068F086 /* TowSlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00F341B21DB5C0060068F086 /* TowSlipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F341C21DB5C0060068F086 /* Build configuration list for PBXNativeTarget "TowSlipUITests" */;
+			buildPhases = (
+				00F341AF1DB5C0060068F086 /* Sources */,
+				00F341B01DB5C0060068F086 /* Frameworks */,
+				00F341B11DB5C0060068F086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00F341B51DB5C0060068F086 /* PBXTargetDependency */,
+			);
+			name = TowSlipUITests;
+			productName = "My Toe SlipUITests";
+			productReference = 00F341B31DB5C0060068F086 /* TowSlipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F341891DB5C0060068F086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Akio Yamadera";
+				TargetAttributes = {
+					00F341901DB5C0060068F086 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UMP37289ZX;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+					00F341A71DB5C0060068F086 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TUFEMRQAFQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00F341901DB5C0060068F086;
+					};
+					00F341B21DB5C0060068F086 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TUFEMRQAFQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00F341901DB5C0060068F086;
+					};
+				};
+			};
+			buildConfigurationList = 00F3418C1DB5C0060068F086 /* Build configuration list for PBXProject "TowSlip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00F341881DB5C0060068F086;
+			productRefGroup = 00F341921DB5C0060068F086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F341901DB5C0060068F086 /* TowSlip */,
+				00F341A71DB5C0060068F086 /* TowSlipTests */,
+				00F341B21DB5C0060068F086 /* TowSlipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F3418F1DB5C0060068F086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004D24CD1DB6873C00C9EF4C /* Lato-Heavy.ttf in Resources */,
+				004D24CB1DB6873700C9EF4C /* Lato-MediumItalic.ttf in Resources */,
+				00F341EB1DB5C46A0068F086 /* Lato-Italic.ttf in Resources */,
+				00F341E51DB5C46A0068F086 /* Lato-Black.ttf in Resources */,
+				00F341E71DB5C46A0068F086 /* Lato-Bold.ttf in Resources */,
+				004D24D01DB6874300C9EF4C /* Lato-SemiboldItalic.ttf in Resources */,
+				00F341F21DB5C46A0068F086 /* ProximaNovaSoft-Semibold.ttf in Resources */,
+				004D24CC1DB6873900C9EF4C /* Lato-Medium.ttf in Resources */,
+				00F341EC1DB5C46A0068F086 /* Lato-Light.ttf in Resources */,
+				004D24CF1DB6874100C9EF4C /* Lato-Semibold.ttf in Resources */,
+				00F341A21DB5C0060068F086 /* LaunchScreen.storyboard in Resources */,
+				001D44BB1E13B1510010FF1E /* TSRemoveableImageView.xib in Resources */,
+				00F341E61DB5C46A0068F086 /* Lato-BlackItalic.ttf in Resources */,
+				00F341F11DB5C46A0068F086 /* ProximaNovaSoft-Regular.ttf in Resources */,
+				00F341EF1DB5C46A0068F086 /* ProximaNovaSoft-Bold.ttf in Resources */,
+				00F3419F1DB5C0060068F086 /* Assets.xcassets in Resources */,
+				00F341ED1DB5C46A0068F086 /* Lato-LightItalic.ttf in Resources */,
+				00F341F01DB5C46A0068F086 /* ProximaNovaSoft-Medium.ttf in Resources */,
+				00F341EA1DB5C46A0068F086 /* Lato-HairlineItalic.ttf in Resources */,
+				004D24CE1DB6873E00C9EF4C /* Lato-HeavyItalic.ttf in Resources */,
+				00F341E81DB5C46A0068F086 /* Lato-BoldItalic.ttf in Resources */,
+				00F341EE1DB5C46A0068F086 /* Lato-Regular.ttf in Resources */,
+				00F341E91DB5C46A0068F086 /* Lato-Hairline.ttf in Resources */,
+				00F3420A1DB620E10068F086 /* loginBG.jpg in Resources */,
+				00F3419A1DB5C0060068F086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F341A61DB5C0060068F086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F341B11DB5C0060068F086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C5A32512F9005AD3FA0CCFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TowSlip/Pods-TowSlip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85BF46DD367D53B4E551C10F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TowSlip/Pods-TowSlip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B24CBEA5AEF188F1EBAEB1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F3418D1DB5C0060068F086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0094AC9E1E00EDEB00E078A5 /* TSTapToAddTVCell.swift in Sources */,
+				0094ACA41E02450500E078A5 /* TSPrice.swift in Sources */,
+				0072ADE71DFC8B9E0091C72B /* TSCacheHandler.swift in Sources */,
+				0072ADE91DFCAE6B0091C72B /* TSTow.swift in Sources */,
+				00F3419D1DB5C0060068F086 /* My_Toe_Slip.xcdatamodeld in Sources */,
+				00F3421A1DB64E4C0068F086 /* TSApartmentTVCell.swift in Sources */,
+				00F342101DB63BCE0068F086 /* TSVehicleListVC.swift in Sources */,
+				00F342031DB61F3C0068F086 /* TSBaseVC.swift in Sources */,
+				0094ACA81E02477800E078A5 /* TSTruck.swift in Sources */,
+				00F342181DB64E370068F086 /* TSHistoryTVCell.swift in Sources */,
+				0072ADE51DFC88940091C72B /* TSModelBase.swift in Sources */,
+				00F3421E1DB64F490068F086 /* TSSectionTypeTVCell.swift in Sources */,
+				0094ACA01E00EE1400E078A5 /* TSAddVehicleDateTVCell.swift in Sources */,
+				0094ACAA1E02497700E078A5 /* TSVehicle.swift in Sources */,
+				0094AC9A1E00547700E078A5 /* AutoCompleteTextField.swift in Sources */,
+				0094AC9C1E00ED8A00E078A5 /* TSVehicleInfoTVCell.swift in Sources */,
+				00F3421C1DB64E5C0068F086 /* TSVehicleListTVCell.swift in Sources */,
+				0072ADEB1DFCB2470091C72B /* TSContract.swift in Sources */,
+				00F341E31DB5C46A0068F086 /* TSAPIHandler.swift in Sources */,
+				00F341F41DB5C46A0068F086 /* TSUtils.swift in Sources */,
+				0094ACA21E00F50C00E078A5 /* TSAddVehicleDetailVC.swift in Sources */,
+				004D24D21DB69A0A00C9EF4C /* TSBaseTVCell.swift in Sources */,
+				00F341F51DB5C46A0068F086 /* TSHeaderNonSearchVC.swift in Sources */,
+				004D24D41DB6C4FF00C9EF4C /* TSAddNewVehicleVC.swift in Sources */,
+				00F3420E1DB63BBA0068F086 /* TSHistoryVC.swift in Sources */,
+				004D24D61DB6D74C00C9EF4C /* TSSettingsVC.swift in Sources */,
+				0094ACA61E0245B100E078A5 /* TSStorage.swift in Sources */,
+				00F341FA1DB60AFE0068F086 /* SWRevealViewController.m in Sources */,
+				00F342051DB61F3C0068F086 /* TSMainNavVC.swift in Sources */,
+				001444E51E0380F10000243E /* TSDataHandler.swift in Sources */,
+				0072ADE31DFC7DAD0091C72B /* TSUser.swift in Sources */,
+				00F341F61DB5C46A0068F086 /* TSHeaderVC.swift in Sources */,
+				00F3420C1DB62B260068F086 /* TSSideBarVC.swift in Sources */,
+				00EE45EF1E1157740091B289 /* TSRemoveableImageView.swift in Sources */,
+				00F341951DB5C0060068F086 /* AppDelegate.swift in Sources */,
+				0000FB251DFE92FB0013FAB7 /* TSAddTowVC.swift in Sources */,
+				00F341F31DB5C46A0068F086 /* TSConstants.swift in Sources */,
+				00F342041DB61F3C0068F086 /* TSLoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F341A41DB5C0060068F086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F341AD1DB5C0060068F086 /* My_Toe_SlipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F341AF1DB5C0060068F086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F341B81DB5C0060068F086 /* My_Toe_SlipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00F341AA1DB5C0060068F086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00F341901DB5C0060068F086 /* TowSlip */;
+			targetProxy = 00F341A91DB5C0060068F086 /* PBXContainerItemProxy */;
+		};
+		00F341B51DB5C0060068F086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00F341901DB5C0060068F086 /* TowSlip */;
+			targetProxy = 00F341B41DB5C0060068F086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00F341981DB5C0060068F086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F341991DB5C0060068F086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00F341A01DB5C0060068F086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F341A11DB5C0060068F086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00F341BA1DB5C0060068F086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00F341BB1DB5C0060068F086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00F341BD1DB5C0060068F086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6116DD2A23DBC361D5E8DEC /* Pods-TowSlip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rosio  Sustaita (UMP37289ZX)";
+				DEVELOPMENT_TEAM = UMP37289ZX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/My\\ Toe\\ Slip/ExtLibs/AutoCompletion",
+				);
+				INFOPLIST_FILE = "My Toe Slip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apartment.MyToeSlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c77eee21-4471-42b8-b309-0545f1a724c2";
+				PROVISIONING_PROFILE_SPECIFIER = mytoeslip;
+				SWIFT_OBJC_BRIDGING_HEADER = "My Toe Slip/Objecive-CBridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		00F341BE1DB5C0060068F086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15B17A5637F4A849964642B /* Pods-TowSlip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rosio  Sustaita (UMP37289ZX)";
+				DEVELOPMENT_TEAM = UMP37289ZX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/My\\ Toe\\ Slip/ExtLibs/AutoCompletion",
+				);
+				INFOPLIST_FILE = "My Toe Slip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apartment.MyToeSlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c77eee21-4471-42b8-b309-0545f1a724c2";
+				PROVISIONING_PROFILE_SPECIFIER = mytoeslip;
+				SWIFT_OBJC_BRIDGING_HEADER = "My Toe Slip/Objecive-CBridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		00F341C01DB5C0060068F086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TUFEMRQAFQ;
+				INFOPLIST_FILE = "My Toe SlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apartment.My-Toe-SlipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowSlip.app/TowSlip";
+			};
+			name = Debug;
+		};
+		00F341C11DB5C0060068F086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TUFEMRQAFQ;
+				INFOPLIST_FILE = "My Toe SlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apartment.My-Toe-SlipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowSlip.app/TowSlip";
+			};
+			name = Release;
+		};
+		00F341C31DB5C0060068F086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TUFEMRQAFQ;
+				INFOPLIST_FILE = "My Toe SlipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apartment.My-Toe-SlipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Toe Slip";
+			};
+			name = Debug;
+		};
+		00F341C41DB5C0060068F086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TUFEMRQAFQ;
+				INFOPLIST_FILE = "My Toe SlipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apartment.My-Toe-SlipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Toe Slip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F3418C1DB5C0060068F086 /* Build configuration list for PBXProject "TowSlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F341BA1DB5C0060068F086 /* Debug */,
+				00F341BB1DB5C0060068F086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F341BC1DB5C0060068F086 /* Build configuration list for PBXNativeTarget "TowSlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F341BD1DB5C0060068F086 /* Debug */,
+				00F341BE1DB5C0060068F086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F341BF1DB5C0060068F086 /* Build configuration list for PBXNativeTarget "TowSlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F341C01DB5C0060068F086 /* Debug */,
+				00F341C11DB5C0060068F086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F341C21DB5C0060068F086 /* Build configuration list for PBXNativeTarget "TowSlipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F341C31DB5C0060068F086 /* Debug */,
+				00F341C41DB5C0060068F086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00F3419B1DB5C0060068F086 /* My_Toe_Slip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00F3419C1DB5C0060068F086 /* My_Toe_Slip.xcdatamodel */,
+			);
+			currentVersion = 00F3419C1DB5C0060068F086 /* My_Toe_Slip.xcdatamodel */;
+			path = My_Toe_Slip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00F341891DB5C0060068F086 /* Project object */;
+}

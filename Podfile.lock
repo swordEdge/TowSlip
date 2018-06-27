@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.2.0)
+  - CTAssetsPickerController (3.3.1):
+    - PureLayout (~> 3.0.0)
+  - JVFloatLabeledTextField (1.1.0)
+  - KNSemiModalViewController_hons82 (0.4.4)
+  - MKDropdownMenu (1.1)
+  - ObjectMapper (2.2.2)
+  - PureLayout (3.0.1)
+  - SwiftyJSON (2.3.2)
+  - THCalendarDatePicker (1.2.7):
+    - KNSemiModalViewController_hons82 (~> 0.4.4)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
+  - CTAssetsPickerController (~> 3.3.0)
+  - JVFloatLabeledTextField
+  - MKDropdownMenu
+  - ObjectMapper (from `https://github.com/Hearst-DD/ObjectMapper.git`)
+  - SwiftyJSON (from `https://github.com/acegreen/SwiftyJSON.git`, branch `swift3`)
+  - THCalendarDatePicker
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+  ObjectMapper:
+    :git: https://github.com/Hearst-DD/ObjectMapper.git
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/acegreen/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 779930c399307caa3d1afb01fd628754e323ea34
+    :git: https://github.com/Alamofire/Alamofire.git
+  ObjectMapper:
+    :commit: fc44253abc5b1d79e6d68c46c61940a45d642929
+    :git: https://github.com/Hearst-DD/ObjectMapper.git
+  SwiftyJSON:
+    :commit: 8971384559780e631b041ac91b16734a396d4c14
+    :git: https://github.com/acegreen/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 26d8877ec03b4e6e6cbfbf7c03924b4844a2d453
+  CTAssetsPickerController: b1d1d50ab87cf6b8b13531de5f4530482e7e53ed
+  JVFloatLabeledTextField: ea4a3d8387ddd43724c472bb2b8ab39b79af05d4
+  KNSemiModalViewController_hons82: 22aead5ef5d8ca749bc1babb43fa7d6f14b030a3
+  MKDropdownMenu: 244eccf44965d52822395da7bdc7fb5ecd7d297c
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  THCalendarDatePicker: a3c3bea65eaf0fdd7044ff5d4886056dc72164fd
+
+PODFILE CHECKSUM: 398fb1e5046786ab488f51513596efb81f9587f7
+
+COCOAPODS: 1.1.1
